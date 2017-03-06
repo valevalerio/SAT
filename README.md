@@ -6,8 +6,8 @@ Actually there are 2 functions that solve it, one generating first the space of 
 It's present also the function that instead of generating first all the possible souctions, it generates the next one if and only if there the previous one doesn't satisfy the formula given.
 
 USAGE:
-\#load "booleana.fsx"
-use booleana
+\#load "booleana.fsx" \n
+use booleana \n
 let str ="(~A V ~B)\n(A V C)\n(A V B)\n(B V D)\n(~C V D)\n(D V E)\n(~A)\n"
 let mybexpr,space = getAndB str
 (*the function tabverita generates the space of soluctions*)
