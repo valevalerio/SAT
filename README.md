@@ -4,6 +4,7 @@ This is an applicative written for F# interactive.
 I wanted to implement an algorithm to solve the SAT problem.
 Actually there are 2 functions that solve it, one generating first the space of soluction and than trying to find the assignment that could set the formula satisfied.
 It's present also the function that instead of generating first all the possible souctions, it generates the next one if and only if there the previous one doesn't satisfy the formula given.
+USAGE:
 ```fsharp
 #load "booleana.fsx" 
 use booleana 
